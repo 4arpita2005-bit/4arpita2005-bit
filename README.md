@@ -32,7 +32,6 @@ const arpita = {
   funFact:     "I debug with console.log and I'm proud of it! 😄",
   availableFor: ["Collaborations", "Open Source", "Internships"]
 };
-```
 
 <br/>
 
