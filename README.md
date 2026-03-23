@@ -3,9 +3,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20There!%20I'm%20Arpita%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Welcome%20to%20my%20GitHub%20Profile!&descAlignY=55&descSize=18" width="100%"/>
 </div>
 
-<!-- Animated Typing SVG -->
+<!-- Animated Typing SVG — hosted inside your repo, always works! -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=🚀+Full+Stack+Developer;💡+Problem+Solver+%26+Innovator;🌐+Open+Source+Enthusiast;✨+Turning+Ideas+Into+Reality" alt="Typing SVG" />
+  <img src="./typing.svg" alt="Typing Animation"/>
 </div>
 
 <br/>
@@ -49,8 +49,6 @@ const arpita = {
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/4arpita2005-bit/4arpita2005-bit/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
-> **Note:** To enable the snake animation, create a GitHub Action in your repo — see instructions at the bottom of this README.
 
 ---
 
@@ -105,7 +103,6 @@ const arpita = {
 
 <br/>
 
-<!-- Activity Graph -->
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=4arpita2005-bit&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
 </div>
@@ -141,11 +138,9 @@ const arpita = {
 
 ---
 
-## ⚙️ Setup Snake Animation (One Time)
+## ⚙️ Enable Snake Animation (One Time Setup)
 
-To enable the animated snake contribution graph above, create this file in your repo:
-
-**`.github/workflows/snake.yml`**
+Create this file inside your repo at `.github/workflows/snake.yml`:
 
 ```yaml
 name: Generate Snake
