@@ -3,23 +3,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20There!%20I'm%20Arpita%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Welcome%20to%20my%20GitHub%20Profile!&descAlignY=55&descSize=18" width="100%"/>
 </div>
 
-<!-- Animated Typing SVG — hosted inside your repo, always works! -->
-<div align="center">
-  <img src="./typing.svg" alt="Typing Animation"/>
-</div>
-
-<br/>
-
 <!-- Profile Views & Followers Badges -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=4arpita2005-bit&label=Profile%20Views&color=a855f7&style=for-the-badge" alt="Profile Views"/>
   &nbsp;
   <img src="https://img.shields.io/github/followers/4arpita2005-bit?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1a2e" alt="Followers"/>
 </div>
-
-<br/>
-
----
 
 ## 🌟 About Me
 
@@ -35,22 +24,6 @@ const arpita = {
   availableFor: ["Collaborations", "Open Source", "Internships"]
 };
 ```
-
-<br/>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/4arpita2005-bit/4arpita2005-bit/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/4arpita2005-bit/4arpita2005-bit/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/4arpita2005-bit/4arpita2005-bit/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
 
 ## 🛠️ Tech Stack & Tools
 
@@ -107,16 +80,6 @@ const arpita = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=4arpita2005-bit&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
 </div>
 
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=4arpita2005-bit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies"/>
-</div>
-
----
-
 ## 🌐 Let's Connect!
 
 <div align="center">
@@ -128,48 +91,11 @@ const arpita = {
 
 </div>
 
----
-
 ## 💬 Dev Quote of the Day
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
 </div>
-
----
-
-## ⚙️ Enable Snake Animation (One Time Setup)
-
-Create this file inside your repo at `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
----
 
 <!-- Footer Wave -->
 <div align="center">
